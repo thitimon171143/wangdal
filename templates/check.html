@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โรงพยาบาลส่งเสริมสุขภาพตำบลวังดาล</title>
+    <link rel="shortcut icon" href="{{url_for('static', filename= 'Css/img/wangdal.jpg')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'Css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'Css/check.css')}}">
+    <!-- <link rel="stylesheet" href="../static/Css/check.css"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Prompt:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- <img src="{{url_for('static', filename= 'Css/img/life-heart-beat.gif')}}" alt="gif" id="gif" alt="gif" id="gif"> -->
+  <!-- <img src="../static/Css/img/life-heart-beat.gif" alt="" id="gif"> -->
+<!-- <img src="../Css/img/Screen Shot 2022-05-16 at 9.29.10 PM.png" alt="" id="logo"> -->
+
+        <form  , method='POST' , action="/modal" >
+          <h3 class="title">การประเมินโรคหัวใจและหลอดเลือด</h3>
+
+          <div class="sel" required>
+            <h3 class="title">เพศ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+          <select name="gender" placeholder=" Please select" required>
+            <option  value="" disabled selected hidden>เลือก</option>
+              <option value="Male">ชาย</option>
+              <option value="Female">หญิง</option>
+          </select>
+          </div>
+
+          <div class="sel" required>
+            <h3 class="title">ญาติป่วยโรคหัวใจ/หลอดเลือดสมอง&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+          <select name="relative" placeholder=" Please select" required>
+            <option  value="" disabled selected hidden>เลือก</option>
+              <option value="yes">มี</option>
+              <option value="no">ไม่มี</option>
+          </select>
+          </div>
+  
+          <div class="sel" required>
+            <h3 class="title">สูบบุหรี่&nbsp;&nbsp;</h3>
+          <select name="smoke" placeholder=" Please select" required>
+            <option  value="" disabled selected hidden>เลือก</option>
+              <option value="yes">สูบ</option>
+              <option value="no">ไม่สูบ</option>
+          </select>
+          </div>
+
+          <div class="sel" required>
+            <h3 class="title">เป็นเบาหวาน&nbsp;&nbsp;</h3>
+          <select name="sweet" placeholder=" Please select" required>
+            <option  value="" disabled selected hidden>เลือก</option>
+              <option value="yes">เป็น</option>
+              <option value="no">ไม่เป็น</option>
+          </select>
+          </div>
+
+          <div class="sel" required>
+            <h3 class="title">เป็นความดัน&nbsp;&nbsp;</h3>
+          <select name="pressure" placeholder=" Please select" required>
+            <option  value="" disabled selected hidden>เลือก</option>
+              <option value="yes">เป็น</option>
+              <option value="no">ไม่เป็น</option>
+          </select>
+          </div>
+
+
+
+          <div class="input-field-L">
+            <h3 class="title">น้ำหนัก&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+            <input type="number" min="0" name="weight" step="0.1"  placeholder="กิโลกรัม" required>
+      </div>
+
+      <div class="input-field-L">
+        <h3 class="title">ส่วนสูง&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+        <input type="number" min="0" name="height" step="0.1"  placeholder="เซนติเมตร" required>
+      </div>
+
+      <div class="input-field-L">      
+        <h3 class="title">รอบเอว&nbsp;&nbsp;&nbsp;</h3>
+        <input type="number" min="0" name="waistline" placeholder="เซนติเมตร" required>
+      </div>
+
+      <div class="input-field-L">
+        <h3 class="title">ไขมัน&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+        <input type="number" min="0" name="cholesterol" placeholder="ไขมันในเลือด" required>
+      </div>
+
+      <div class="input-field-L">
+        <h3 class="title">น้ำตาล&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+        <input type="number" min="0" name="glucose" placeholder="น้ำตาลในเลือด" required>
+      </div>
+
+      <div class="input-field-L">
+        <h3 class="title">ความดัน&nbsp;&nbsp;</h3>
+        <input type="number" min="0" name="systolic" placeholder="เลขตัวบน" required>
+      </div>
+
+      <div class="input-field-L">
+        <h3 class="title">ความดัน&nbsp;&nbsp;</h3>
+        <input type="number" min="0" name="diastolic" placeholder="เลขตัวล่าง" required>
+      </div>
+
+
+        <!-- <button type="submit" id="submit"> </button> -->
+      <!-- Button to Open the Modal -->
+<!-- Button trigger modal -->
+<!-- Button trigger modal -->
+
+    </div>
+        <a href="{{url_for('modal')}}" > <button class=" mod " type="submit"  >ประเมิน</button>
+            <!-- <button  class="mod" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit" value="submit">
+            The result  btn btn-outline-success            
+          </button> -->
+        </a> 
+
+    
+        </form>
+
+        <a href="/"><button class="back" >หน้าแรก</button></a>
+  {%block modal%}
+  {%endblock%}
+
+
+
+    
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="{{url_for('static', filename= 'JS/check.js')}}"></script>
+<script src="{{url_for('static', filename= 'JS/bootstrap.bundle.min.js')}}"></script>
+
+<!-- <script>
+  let output='{{[prediction_text]}}'
+  if(output==("djiedljd"))
+    swal.fire(output , '' ,'warning')
+  else if(output==kjdcjk)
+    swal.fire(output,'','sucess')
+</script> -->
+</body>
+{%block script %}
+{%endblock%}
+</html>

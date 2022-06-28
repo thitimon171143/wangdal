@@ -1,0 +1,67 @@
+{% extends 'check.html'  %}
+{% block modal %}
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>โรงพยาบาลส่งเสริมสุขภาพตำบลวังดาล</title>
+  <link rel="shortcut icon" href="{{url_for('static', filename= 'Css/img/wangdal.jpg')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename= 'Css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename= 'Css/home.css')}}">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Ms+Madi&family=Playfair+Display:ital,wght@1,400;1,500&family=Sansita+Swashed&family=Tapestry&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet"> -->
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lobster&family=Ms+Madi&family=Playfair+Display:ital,wght@1,400;1,500&family=Sansita+Swashed&family=Tapestry&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Prompt:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" >
+      <div class="modal-content" >
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLabel">ผลลัพธ์</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Input is
+          {{prediction_input}}
+          <br>
+          Output is -->
+          ผลลัพธ์ของคุณ คือ คุณมีความเสี่ยง<div data-status="{{prediction_text}}" class="status"></div>
+          ซึ่งความเสี่ยงของคุณอยู่ระดับสี<div data-status2="{{prediction_text_probability}}" class="status2"></div>
+          ดัชนีมวลกายของคุณคือ {{BMI_text}}
+          <div data-status3="{{BMI_warning}}" class="status3"></div>
+          <div data-status4="{{blood_warning}}" class="status4"></div>
+          หากต้องการรับคำแนะนำเพิ่มเติม
+          <br>กรุณากดปุ่มตามสีที่คุณได้รับการวินิจฉัย
+        </div>
+
+        <div class="modal1">
+        <div class="padding1"><a href="/info1" id="check"><button class="co1">สีเขียว</button></a></div>
+        <div class="padding2"><a href="/info2" id="check"><button class="co2">สีเหลือง</button></a></div>
+        <div class="padding3"><a href="/info3" id="check"><button class="co3" >สีส้ม</button></a></div>
+        <div class="padding4"><a href="/info4" id="check"><button class="co4" >สีแดง</button></a></div>
+        <div class="padding5"><a href="/info5" id="check"><button class="co5" >สีแดงเข้ม</button></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+{% endblock %}
+
+
+{%block script %}
+<script>
+$(document).ready (function(){
+    console.log("window is loaded")
+    $("#exampleModal" ).modal("show")
+  })
+</script>
+{% endblock %}

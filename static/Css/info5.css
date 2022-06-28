@@ -1,0 +1,351 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.baby{
+    padding: 2rem 2rem 2rem 2rem;
+}
+.head1{
+    color: rgb(0, 0, 0);
+    margin-top: 25px;
+    transition: 0.5s;
+    font-size: 1.5rem;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+.hothead{
+        color: rgb(0, 0, 0);
+        margin-top: 25px;
+        transition: 0.5s;
+        font-size: 1.5rem;
+        font-family: 'Prompt', sans-serif;
+}
+.greed{
+    color: brown;
+    margin-top: 25px;
+    transition: 0.5s;
+    font-size: 1.5rem;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+
+
+}
+
+
+body {
+    height: 100%;     
+    background: linear-gradient(95.44deg, #f4c8e2 52.31%, #ef88bf 100%);
+
+
+     /* font-family: 'Truculenta', sans-serif; 
+       font-weight: bolder !important; 
+    font-size: xx-large; */
+    /* color: rgb(242, 103, 103); */
+    /* font-family: 'Lobster', cursive;    font-family: 'Yanone Kaffeesatz', sans-serif; */
+}
+/* #cardio{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+} */
+
+  /*กลับหน้าแรก*/
+#title{
+    position: absolute;
+    color: black;
+    top: 5%;
+    left: 35%;
+    width: 1000px;
+    transition: 0.5s;
+    font-family: 'Prompt', sans-serif;
+}
+.back{
+    background-color: white;
+    color: brown;
+    font-size: 1rem;
+    border: 10rem;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+
+
+}
+.back:hover{
+    background-color: brown;
+    color: white;
+    border: 10rem;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+    
+}
+
+#wanna{
+   position: absolute;
+   top: 20%;
+   left: 20% ; 
+   color: rgb(0, 0, 0);
+   width: 1000px;
+   margin-top: 25px;
+   transition: 0.5s;
+   font-family: 'Kanit', sans-serif;
+   font-family: 'Prompt', sans-serif;
+}
+
+
+#wanna1{
+    position: absolute;
+    top: 38%;
+    left: 20% ; 
+    color: black;
+    width: 1000px;
+    margin-top: 25px;
+    transition: 0.5s;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+ 
+#wanna2{
+    position: absolute;
+    top: 60%;
+    left: 20% ; 
+    color: black;
+    width: 1000px;
+    margin-top: 25px;
+    transition: 0.5s;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+ 
+
+#wanna3{
+    position: absolute;
+    top: 80%;
+    left: 20% ; 
+    color: black;
+    width: 1000px;
+    margin-top: 25px;
+    transition: 0.5s;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+ 
+
+#wanna4{
+    position: absolute;
+    top: 98%;
+    left: 20% ; 
+    color: black;
+    width: 1000px;
+    margin-top: 25px;
+    transition: 0.5s;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+#wanna5{
+    position: absolute;
+    top: 124%;
+    left: 20% ; 
+    color: black;
+    width: 1000px;
+    margin-top: 25px;
+    transition: 0.5s;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+ 
+
+#wanna6 {
+    position: absolute;
+    top: 135%;
+    left: 20% ; 
+    color: black;
+    width: 1000px;
+    margin-top: 25px;
+    transition: 0.5s;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+#need{
+    position: absolute;
+    top: 25%;
+    left: 20% ; 
+    color: black;
+    width: 1000px;
+    margin-top: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+ }
+ 
+
+#need1{
+    position: absolute;
+    top: 45%;
+    left: 20% ; 
+    color: black;
+    width: 1000px;
+    margin-top: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+ }
+ 
+
+#need2{
+    position: absolute;
+    top: 66%;
+    left: 20% ; 
+    color: black;
+    width: 1000px;
+    margin-top: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+ }
+ 
+#need3{
+    position: absolute;
+    top: 86%;
+    left: 20% ; 
+    color: black;
+    width: 1000px;
+    margin-top: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+ }
+ 
+#need4{
+    position: absolute;
+    top: 105%;
+    left: 20% ; 
+    color: black;
+    width: 1000px;
+    margin-top: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+ }
+ 
+
+#need5{
+    position: absolute;
+    top: 130%;
+    left: 20% ; 
+    color: black;
+    width: 1000px;
+    margin-top: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+ }
+ 
+.btn_f{
+    text-align: center;
+}
+
+
+
+
+
+
+@media screen and (min-width:300px) {
+    
+    #title{
+        font-size:16px;
+        width: 400px;
+    }
+    .baby{
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    .head1{
+        color: rgb(0, 0, 0);
+        margin-top: 25px;
+        transition: 0.5s;
+        font-size: 1.5rem;
+        font-family: 'Prompt', sans-serif;
+        text-align: center;
+    }
+    
+    .hothead{
+            color: rgb(0, 0, 0);
+            margin-top: 25px;
+            transition: 0.5s;
+            font-size: 1.0rem;
+            font-family: 'Prompt', sans-serif;
+    }
+    .greed{
+        color: brown;
+        margin-top: 25px;
+        transition: 0.5s;
+        font-size: 1.5rem;
+        font-family: 'Prompt', sans-serif;
+        text-align: center;
+    
+    
+    
+      }
+    }
+    
+
+@media screen and (min-width: 600px) {
+    
+#title{
+    font-size:16px;
+    width: 400px;
+}
+.baby{
+    padding: 9rem 2rem 9rem 2rem;
+}
+.head1{
+    color: rgb(0, 0, 0);
+    margin-top: 25px;
+    transition: 0.5s;
+    font-size: 2.0rem;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+.hothead{
+        color: rgb(0, 0, 0);
+        margin-top: 25px;
+        transition: 0.5s;
+        font-size: 1.5rem;
+        font-family: 'Prompt', sans-serif;
+}
+.greed{
+    color: brown;
+    margin-top: 25px;
+    transition: 0.5s;
+    font-size: 2.5rem;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+
+
+
+  }
+}
+
+    
+  
+  /* @media screen and (max-width: 1200px) {
+    #cardio{
+        width: 100%;
+        height: 100%;
+    }
+    #title,#wanna{
+        font-size:25px;
+    }
+    #check{
+        width: auto;
+        height: auto;
+        float: none;
+        padding: auto;
+        font-size:22px;
+    }
+    #gif{
+        width: auto;
+    }
+  } */

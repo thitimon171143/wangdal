@@ -1,0 +1,614 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.ex-header {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    background: url(/static/img/cardio.png) center center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.headhome{
+    position: absolute;
+    top: 5%;
+    left: 5% ; 
+    color: black;
+    width: 500px;
+    margin-top: 25px;
+    font-size: 3rem;
+    transition: 0.5s;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+body {
+    background: url(/static/img/cardio.png) center center no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+     /* font-family: 'Truculenta', sans-serif; 
+       font-weight: bolder !important; 
+    font-size: xx-large; */
+    /* color: rgb(242, 103, 103); */
+    /* font-family: 'Lobster', cursive;    font-family: 'Yanone Kaffeesatz', sans-serif; */
+}
+/* #cardio{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+} */
+#title{
+    position: absolute;
+    color: black;
+    top: 5%;
+    left: 5%;
+    width: 450px;
+    transition: 0.5s;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+#title:hover {
+    padding-left: 20px;
+}
+
+.wanna{
+   position: absolute;
+   top: 70%;
+   left: 5% ; 
+   color: black;
+   width: 600px;
+   margin-top: 25px;
+   transition: 0.5s;
+   font-size: 3rem;
+   font-family: 'Kanit', sans-serif;
+   font-family: 'Prompt', sans-serif;
+}
+
+.wanna:hover {
+  padding-left: 20px;
+}
+
+.wanna1{
+    position: absolute;
+    top: 70%;
+    left: 75% ; 
+    color: rgb(0, 0, 0);
+    width: 370px;
+    margin-top: 25px;
+    transition: 0.5s;
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+ 
+.wanna1:hover {
+   padding-left: 20px;
+}
+
+.need{
+    position: absolute;
+    top: 85%;
+    left: 40% ; 
+    color: rgb(0, 0, 0);
+    width: 500px;
+    margin-top: 25px;
+    transition: 0.5s;
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+ }
+ 
+#need:hover {
+   padding-left: 20px;
+ }
+
+.check {
+    position: absolute;
+    top: 80%;
+    left: 25%; 
+    background-color: white;
+    color: rgb(255,0,0);
+    font-weight: bold;
+    width: 110px;
+    height: 45px;
+    border-radius: 10px;
+    transition : 0.5s;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+.check:hover {
+    margin-left: 15px;
+    border: 1px solid rgb(255,0,0);
+    
+}
+
+.about {
+    position: absolute;
+    top: 80%;
+    left: 78%; 
+    background-color: white;
+    color: rgb(255,0,0);
+    font-weight: bold;
+    width: 110px;
+    height: 45px;
+    border-radius: 10px;
+    transition : 0.5s;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+.about:hover {
+    margin-left: 15px;
+    border: 1px solid rgb(255,0,0);
+    
+}
+
+.info1 {
+    position: absolute;
+    background-color: white;
+    color: rgb(0,128,0);
+    font-weight: bold;
+    width: 70px;
+    height: 45px;
+    border-radius: 10px;
+    transition : 0.5s;
+}
+
+.info1:hover {
+    margin-left: 15px;
+    border: 1px solid rgb(255,0,0);
+    
+}
+
+.info2 {
+    position: absolute;
+    background-color: white;
+    color: rgb(218,165,32);
+    font-weight: bold;
+    width: 70px;
+    height: 45px;
+    border-radius: 10px;
+    transition : 0.5s;
+}
+
+.info2:hover {
+    margin-left: 15px;
+    border: 1px solid rgb(255,0,0);
+    
+}
+
+.padding1{
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+.padding2{
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+.padding3{
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+.padding4{
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+.padding5{
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+
+.co1{
+    color: white;
+    border-radius: 0.5rem;
+    background-color: rgb(0,128,0);
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    border: rgb(0,128,0) ;
+}
+.co2{
+    color: white;
+    border-radius: 0.5rem;
+    background-color: rgb(232, 209, 32);
+    padding: 0.5rem 0.3rem 0.5rem 0.3rem;
+    border: rgb(232, 209, 32) ;
+}
+.co3{
+    color: white;
+    border-radius: 0.5rem;
+    background-color: orange;
+    padding: 0.5rem 0.95rem 0.5rem 0.95rem;
+    border: orange ;
+}
+.co4{
+    color: white;
+    border-radius: 0.5rem;
+    background-color: red;
+    padding: 0.5rem 0.65rem 0.5rem 0.65rem;
+    border: red ;
+}
+.co5{
+    color: white;
+    border-radius: 0.5rem;
+    background-color: rgb(139,0,0);
+    padding: 0.5rem 0.1rem 0.5rem 0.1rem;
+    border: rgb(139,0,0) ;
+}
+.info3 {
+    position: absolute;
+    background-color: white;
+    color: rgb(255,0,0);
+    font-weight: bold;
+    width: 70px;
+    height: 45px;
+    border-radius: 10px;
+    transition : 0.5s;
+}
+.modal1{
+    display: flex;
+    flex-shrink: 0;
+    border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+    justify-content: flex-start;
+}
+.info3:hover {
+    margin-left: 15px;
+    border: 1px solid rgb(255,0,0);
+    
+}
+
+.info4 {
+    position: absolute;
+    background-color: white;
+    color: rgb(255,0,0);
+    font-weight: bold;
+    width: 70px;
+    height: 45px;
+    border-radius: 10px;
+    transition : 0.5s;
+}
+
+.info4:hover {
+    margin-left: 15px;
+    border: 1px solid rgb(255,0,0);
+    
+}
+
+.info5 {
+    position: absolute;
+    background-color: white;
+    color: rgb(139,0,0);
+    font-weight: bold;
+    width: 70px;
+    height: 45px;
+    border-radius: 10px;
+    transition : 0.5s;
+}
+
+.info5:hover {
+    margin-left: 15px;
+    border: 1px solid rgb(255,0,0);
+    
+}
+
+#logo{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 20%;
+    
+}
+#gif{
+    position: absolute;
+    top: 65%;
+    height: 30%;
+}
+
+#gif1{
+    position: absolute;
+    left: 85%;
+    top: 65%;
+    height: 30%;
+}
+
+/* -------------------------------------------------*/
+.modal-header{
+    background-color: rgb(240,128,128);
+    color: rgb(0, 0, 0);
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+  }
+  .modal-body{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+  }
+  .fade.modal-backdrop.show{
+    opacity: 0.7;
+   }
+   .modal-dialog.show{
+    opacity:0.31;
+  }
+  /* .modal-content:target {
+    opacity: 1;
+  } */
+  .modal {
+    position: fixed;
+    top: 10%;
+    left: 0;
+    z-index: 1055;
+    display: none;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    justify-content:center;
+    align-items:center;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: rgb(24, 42, 112);
+    border-color: rgb(3, 11, 41);
+  }
+  .btn-primary:hover{
+    /* background-color: rgb(255,0,0);
+    /* color: white; */
+      transition : 0.5s;
+      /* border:rgb(255,0,0) ;  */
+      background-color: #6c757d;
+      border-color: #6c757d;  }
+      
+      .btn-secondary:hover ,.btn-primary:hover{
+    background-color: rgb(255,0,0); 
+    color: white;
+    transition : 0.5s;
+    /* border:rgb(255,0,0) ;  */
+      }
+      .btn-close {
+        box-sizing: content-box;
+        width: 0em;
+        top: 25px;
+        padding: 0.25em 0.25em;
+        color: #000;
+        /* background: transparent url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e) center/1em auto no-repeat; */
+        border: 0;
+        border-radius: 0.25rem;
+        opacity: .5;
+        position: absolute;
+        right: 8%;
+    }
+
+/* ------------------------------------------------------ */
+
+@media screen and (min-width: 300px)
+{ 
+    .headhome{
+        position: absolute;
+        top: 5%;
+        left: 5% ; 
+        color: black;
+        width: 500px;
+        margin-top: 25px;
+        font-size: 1rem;
+        transition: 0.5s;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Prompt', sans-serif;
+    
+    }
+    .wanna{
+        position: absolute;
+        top: 70%;
+        left: 5% ; 
+        color: black;
+        width: 600px;
+        font-size: 1rem;
+        margin-top: 25px;
+        transition: 0.5s;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Prompt', sans-serif;
+     }
+     .wanna1{
+        position: absolute;
+        top: 70%;
+        left: 75% ; 
+        color: rgb(0, 0, 0);
+        width: 370px;
+        margin-top: 25px;
+        font-size: 1rem;
+        transition: 0.5s;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Prompt', sans-serif;
+    }
+    .need{
+        position: absolute;
+        top: 85%;
+        left: 40% ; 
+        color: rgb(0, 0, 0);
+        width: 500px;
+        margin-top: 25px;
+        transition: 0.5s;
+        font-size: 1rem;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Prompt', sans-serif;
+     }
+    
+}
+@media screen and (min-width: 600px)
+{ 
+    .headhome{
+        position: absolute;
+        top: 5%;
+        left: 5% ; 
+        color: black;
+        width: 500px;
+        margin-top: 25px;
+        font-size: 2rem;
+        transition: 0.5s;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Prompt', sans-serif;
+    
+    }
+    .wanna{
+        position: absolute;
+        top: 70%;
+        left: 5% ; 
+        color: black;
+        width: 600px;
+        font-size: 2rem;
+        margin-top: 25px;
+        transition: 0.5s;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Prompt', sans-serif;
+     }
+     .wanna1{
+        position: absolute;
+        top: 70%;
+        left: 75% ; 
+        color: rgb(0, 0, 0);
+        width: 370px;
+        margin-top: 25px;
+        font-size: 2rem;
+        transition: 0.5s;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Prompt', sans-serif;
+    }
+    .need{
+        position: absolute;
+        top: 85%;
+        left: 40% ; 
+        color: rgb(0, 0, 0);
+        width: 500px;
+        margin-top: 25px;
+        transition: 0.5s;
+        font-size: 2rem;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Prompt', sans-serif;
+     }
+     .co1{
+        color: white;
+        border-radius: 0.5rem;
+        background-color: rgb(0,128,0);
+        padding: 1rem 1rem 1rem 1rem;
+        border: rgb(0,128,0) ;
+    }
+    .co2{
+        color: white;
+        border-radius: 0.5rem;
+        background-color: rgb(232, 209, 32);
+        padding: 1rem 1rem 1rem 1rem;
+        border: rgb(232, 209, 32) ;
+    }
+    .co3{
+        color: white;
+        border-radius: 0.5rem;
+        background-color: orange;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        border: orange ;
+    }
+    .co4{
+        color: white;
+        border-radius: 0.5rem;
+        background-color: red;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        border: red ;
+    }
+    .co5{
+        color: white;
+        border-radius: 0.5rem;
+        background-color: rgb(139,0,0);
+        padding: 1rem 1rem 1rem 1rem;
+        border: rgb(139,0,0) ;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{ 
+    .headhome{
+        position: absolute;
+        top: 5%;
+        left: 5% ; 
+        color: black;
+        width: 500px;
+        margin-top: 25px;
+        font-size: 3rem;
+        transition: 0.5s;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Prompt', sans-serif;
+    
+    }
+    .wanna{
+        position: absolute;
+        top: 70%;
+        left: 5% ; 
+        color: black;
+        width: 600px;
+        margin-top: 25px;
+        font-size: 2rem;
+        transition: 0.5s;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Prompt', sans-serif;
+     }
+     .wanna1{
+        position: absolute;
+        top: 70%;
+        left: 75% ; 
+        color: rgb(0, 0, 0);
+        width: 370px;
+        margin-top: 25px;
+        transition: 0.5s;
+        font-size: 2rem;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Prompt', sans-serif;
+    }
+    .need{
+        position: absolute;
+        top: 85%;
+        left: 40% ; 
+        color: rgb(0, 0, 0);
+        width: 500px;
+        margin-top: 25px;
+        transition: 0.5s;
+        font-size: 2rem;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Prompt', sans-serif;
+     }
+.co1{
+      color: white;
+      border-radius: 0.5rem;
+      background-color: rgb(0,128,0);
+      padding: 1rem 1rem 1rem 1rem;
+      border: rgb(0,128,0) ;
+  }
+  .co2{
+      color: white;
+      border-radius: 0.5rem;
+      background-color: rgb(232, 209, 32);
+      padding: 1rem 1rem 1rem 1rem;
+      border: rgb(232, 209, 32) ;
+  }
+  .co3{
+      color: white;
+      border-radius: 0.5rem;
+      background-color: orange;
+      padding: 1rem 1.5rem 1rem 1.5rem;
+      border: orange ;
+  }
+  .co4{
+      color: white;
+      border-radius: 0.5rem;
+      background-color: red;
+      padding: 1rem 1rem 1rem 1rem;
+      border: red ;
+  }
+  .co5{
+      color: white;
+      border-radius: 0.5rem;
+      background-color: rgb(139,0,0);
+      padding: 1rem 1rem 1rem 1rem;
+      border: rgb(139,0,0) ;
+  }
+}

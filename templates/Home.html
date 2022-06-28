@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โรงพยาบาลส่งเสริมสุขภาพตำบลวังดาล</title>
+    <link rel="shortcut icon" href="{{url_for('static', filename= 'Css/img/wangdal.jpg')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'Css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'Css/check.css')}}">
+    <!-- <link rel="stylesheet" href="../static/Css/check.css"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Prompt:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- <img src="{{url_for('static', filename= 'Css/img/life-heart-beat.gif')}}" alt="gif" id="gif" alt="gif" id="gif"> -->
+  <!-- <img src="../static/Css/img/life-heart-beat.gif" alt="" id="gif"> -->
+<!-- <img src="../Css/img/Screen Shot 2022-05-16 at 9.29.10 PM.png" alt="" id="logo"> -->
+
+<img src="/static/img/wangdal.jpg" alt="logo" id="logo">
+<h1 class="headhome">คุณเสี่ยงต่อโรคหัวใจ<br>และหลอดเลือดแค่ไหน ?</h1>
+<h2 class="wanna">เช็คความเสี่ยงตนเองได้ที่นี่</h2>
+<h3 class="wanna1">หากฉุกเฉิน เช็คอาการสำคัญ</h3>
+<div class="col-12"><h4 class="need"><br>โดย วรรณพร อรรถธรรมสุนทร</h4></div>
+<a href="/check" id="check"><button class="check">เช็คเลย</button></a>
+<a href="/about" id="check"><button class="about">ฉุกเฉิน</button></a>
+<!-- <img src="../Css/img/cadio.jpg" alt="cardio" id="cardio"> -->
+<script src="{{url_for('static', filename= 'JS/home.js')}}"></script>
+  {%block modal%}
+  {%endblock%}
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="{{url_for('static', filename= 'JS/check.js')}}"></script>
+<script src="{{url_for('static', filename= 'JS/bootstrap.bundle.min.js')}}"></script>
+
+<!-- <script>
+  let output='{{[prediction_text]}}'
+  if(output==("djiedljd"))
+    swal.fire(output , '' ,'warning')
+  else if(output==kjdcjk)
+    swal.fire(output,'','sucess')
+</script> -->
+</body>
+{%block script %}
+{%endblock%}
+</html>
